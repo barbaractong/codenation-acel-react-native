@@ -24,4 +24,5 @@ const sha1Encrypter = (data) => {
 
 const sha1Data = sha1Encrypter(decryptedData)
 
+console.log(decryptedData)
 console.log(sha1Data)
